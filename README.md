@@ -12,3 +12,7 @@ So to get rid and automate the process, I developed a Python program that takes 
 ## QR Code Generator
 
 I generally made QR codes online, but the options are overwhelming - contacts, links, texts, and what not. I never had the use of so many sources at all. So to serve my purpose, I created a QR Code Generator using the "qrcode" package in Python to achieve the goal. This app takes links and texts to generate a QR Code -- much rather in the same way sans confusion.
+
+## Translator using "googletrans"
+
+A simple but effective translator that uses the "googletrans" py library to translate text into your target languages. A list of all target codes are available here: <https://pypi.org/project/googletrans/>
