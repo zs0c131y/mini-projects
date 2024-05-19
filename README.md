@@ -16,3 +16,26 @@ I generally made QR codes online, but the options are overwhelming - contacts, l
 ## Translator using "googletrans"
 
 A simple but effective translator that uses the "googletrans" py library to translate text into your target languages. A list of all target codes are available here: <https://pypi.org/project/googletrans/>
+
+## Forex Currency Converter
+
+This simple Python script allows you to convert currencies using the forex_python library. You can input the amount, base currency, and destination currency either through the command line or directly initialize the values in the script.
+
+Command line input: `python currency_converter.py [<amount>] <BASE> to <DESTINATION>`
+
+#### Direct Initialization:
+
+    1. Run the script.
+    2. Choose the option for direct initialization.
+    3. Enter the amount, base currency, and destination currency when prompted.
+
+#### Dependencies
+
+    1. forex_python
+    2. requests
+
+#### How to Run
+
+    1. Clone this repository to your local machine.
+    2. Install dependencies using pip install forex-python.
+    3. Run the script using python currency_converter.py.
