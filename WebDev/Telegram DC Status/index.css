@@ -1,0 +1,136 @@
+/*global*/
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  outline: 0px;
+  background-color: inherit;
+  color: inherit;
+  font-family: "Inter", "Poppins", "IBM Plex Sans", sans-serif;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Inter", "Poppins", "IBM Plex Sans", sans-serif;
+  line-height: 1.6;
+  font-size: inherit;
+  color: white;
+  background-color: #0c0c0c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  margin: 3rem 0rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  justify-content: center;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  margin: 50px 30px;
+  justify-content: end;
+}
+
+.gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.gif img {
+  width: 20%;
+  height: 20%;
+}
+
+.gif p {
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.status-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.status-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-item.available {
+  background-color: #2d2d2d;
+}
+
+.status-item .ping {
+  font-size: 14px;
+}
